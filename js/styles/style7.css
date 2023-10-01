@@ -1,0 +1,23 @@
+div#output {
+            height: 50px;
+            width: 50px;
+            padding-top: 50px;
+            position: relative;
+            animation: mymove 3.5s infinite;
+            animation-play-state: paused;
+
+        }
+
+        h1 {
+            color: rgb(43, 25, 123);
+        }
+
+        @keyframes mymove {
+            from {
+                left: 0px;
+            }
+
+            to {
+                left: 100%;
+            }
+        }
