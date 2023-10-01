@@ -1,0 +1,37 @@
+.card{
+    border-radius: 3px;
+    margin: 20px;
+}
+
+.card-img-top{
+    position: relative;
+}
+
+.card-img-top .card-img-overlay{
+    position: absolute;
+    bottom: 0;
+    top: 30%;
+    transition: 0.2s;
+}
+
+.card-img-top img{
+    width: 15rem;
+    height: 180px;	
+    filter:  brightness(40%);
+    object-fit:cover;
+    
+    transition: 0.2s;
+}
+
+.card-img-top:hover img{
+    height: 240px;
+    filter:  brightness(70%);
+}
+
+.card-img-top:hover .card-img-overlay{
+    top: 50%;
+}
+
+h1{
+    font-size: 35px;
+}
