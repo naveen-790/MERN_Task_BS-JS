@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Task-5</title>
+
+    <link rel="stylesheet" href="styles/style5.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+     </head>
+
+<body>
+    <center>
+        <form id="myForm" onsubmit="return validateForm()">
+        <label for="name">Name:</label>
+        <input type="text" id="name" />
+        <span id="nameError" class="error-msg"></span>
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="text" id="email">
+        <span id="emailError" class="error-msg"></span>
+        <br>
+        <br>
+         <label for="website">Website:</label>
+        <input type="text" id="website">
+        <span id="websiteError" class="error-msg"></span>
+        <br>
+        <br>
+        
+        
+       <label for="message" class="d-flex">Message:</label>
+        <textarea id="message" rows="4" cols="23"></textarea>
+        <span id="messageError" class="error-msg"></span>
+    
+
+        
+        <br>
+        <input type="submit" value="Submit">
+        </form>
+    </center>
+    
+    <script src="scripts/script5.js"></script>
+    
+
+</body>
+
+</html>
